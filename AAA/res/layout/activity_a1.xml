@@ -26,32 +26,32 @@
         android:id="@+id/buttonRed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"            
-        android:text="Red" />
+        android:text="@string/c_red" />
 
     <Button
         android:id="@+id/buttonGreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-               android:text="Green" />
+               android:text="@string/c_green" />
 
     <Button
         android:id="@+id/buttonBlue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-               android:text="Blue" />
+               android:text="@string/c_blue" />
 
     <Button
         android:id="@+id/buttonUptext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
        
-        android:text="/\\" />
+        android:text="@string/_tsU" />
 
     <Button
         android:id="@+id/buttonDownText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-       android:text="\\/" />
+       android:text="@string/_tsD" />
         
     </LinearLayout>
 

@@ -8,5 +8,23 @@
     <string name="title_activity_a1">A1</string>
     <string name="title_activity_a2">A2</string>
     <string name="title_activity_a3">A3</string>
+    <string name="IListerYou">Я Слушаю тебя</string>
+    <string name="__go">Go</string>
+    <string name="c_red">Red</string>
+    <string name="c_blue">Blue</string>
+    <string name="c_green">Green</string>
+    <string name="_tsU">/\\\\</string>
+    <string name="_tsD">\\\\/</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_a4">A4</string>
+    <string name="spinner_tt">Spinner</string>
+    <string name="radio_tt">Radio</string>
+    <string name="web_tt">Web</string>
+    <string name="text_color_size_tt">Text color size</string>
+    <string name="wiki_tt">Wiki</string>
+    <string name="title_activity_aweb">AWeb</string>
+    <string name="title_activity_alist">AList</string>
+    <string name="title_activity_cam">Cam</string>
+    <string name="title_activity_adraw">ADraw</string>
 
 </resources>

@@ -1,8 +1,5 @@
 package com.example.aaa;
 
-import java.util.List;
-
-import android.R.string;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;

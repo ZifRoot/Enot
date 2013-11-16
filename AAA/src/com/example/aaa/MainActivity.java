@@ -1,24 +1,17 @@
 package com.example.aaa;
 
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.List;
-
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Color;
 import android.graphics.drawable.StateListDrawable;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.ViewGroup;
 import android.widget.Button;
 
 public class MainActivity extends Activity {
 	
-	List<Button> Bs = new ArrayList<Button>();
+	//List<Button> Bs = new ArrayList<Button>();
 	
 /*	List<View> Find(View _v)
 	{
@@ -43,19 +36,17 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         Button b = (Button)findViewById(R.id.button_colorx);
         StateListDrawable b1 = (StateListDrawable) b.getBackground();
-        //b1.
         
         b.setText( b1.getClass().getName());
         
-        Bs.add((Button)findViewById(R.id.buttonA1));
-        Bs.add((Button)findViewById(R.id.buttonA2));
-        Bs.add((Button)findViewById(R.id.buttonA3));
-        
-        Bs.get(0).setOnClickListener(new BL(A1.class));
-        Bs.get(1).setOnClickListener(new BL(A2.class));
-        Bs.get(2).setOnClickListener(new BL(A3.class));
-        
-        		
+        findViewById(R.id.buttonA1).setOnClickListener(new BL(A1.class));
+        findViewById(R.id.buttonSpinner).setOnClickListener(new BL(A2.class));
+        findViewById(R.id.buttonRadio).setOnClickListener(new BL(A4.class));
+        findViewById(R.id.buttonA3).setOnClickListener(new BL(A3.class));
+        findViewById(R.id.buttonWiki).setOnClickListener(new BL(AWeb.class));
+        findViewById(R.id.buttonList).setOnClickListener(new BL(AList.class));
+        findViewById(R.id.buttonCamera).setOnClickListener(new BL(Cam.class));
+        findViewById(R.id.buttonCanvas).setOnClickListener(new BL(ADraw.class));
     }
 
 
