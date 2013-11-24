@@ -22,7 +22,7 @@ public class AWeb extends Activity implements OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_aweb);
-		ttt =  (TextView) findViewById(R.id.textView1);
+		ttt =  (TextView) findViewById(R.id.tCamL);
 		ww = (WebView) findViewById(R.id.webView1);		
 		ww.setWebViewClient(new WebViewClient()
 		{			

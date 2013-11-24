@@ -26,42 +26,51 @@ public final class R {
         public static final int k=0x7f020002;
     }
     public static final class id {
-        public static final int E=0x7f08001d;
+        public static final int E=0x7f080022;
         public static final int GoButton=0x7f08000c;
         public static final int LInputtype=0x7f080011;
         public static final int LL1web=0x7f080017;
         public static final int L_A1=0x7f080000;
+        public static final int LayoutCams=0x7f08001e;
         public static final int LisenTTT=0x7f08000a;
         public static final int TTT=0x7f08000b;
-        public static final int TTT1=0x7f08001c;
+        public static final int TTT1=0x7f080021;
         public static final int WL=0x7f08000d;
-        public static final int action_settings=0x7f080025;
+        public static final int action_settings=0x7f08002e;
+        public static final int button1=0x7f08002a;
         public static final int button2=0x7f080019;
-        public static final int buttonA1=0x7f080021;
-        public static final int buttonA3=0x7f080023;
+        public static final int buttonA1=0x7f080026;
+        public static final int buttonA3=0x7f080028;
         public static final int buttonBlue=0x7f080004;
-        public static final int buttonCamSelf=0x7f08001b;
+        public static final int buttonCamDefault=0x7f08001b;
         public static final int buttonCamX=0x7f08001a;
-        public static final int buttonCamera=0x7f08001e;
-        public static final int buttonCanvas=0x7f08001f;
+        public static final int buttonCamera=0x7f080023;
+        public static final int buttonCanvas=0x7f080024;
         public static final int buttonDownText=0x7f080006;
         public static final int buttonGreen=0x7f080003;
         public static final int buttonList=0x7f080018;
         public static final int buttonRadio=0x7f08000f;
         public static final int buttonRed=0x7f080002;
-        public static final int buttonSpinner=0x7f080022;
+        public static final int buttonRelease=0x7f08001d;
+        public static final int buttonSpinner=0x7f080027;
+        public static final int buttonTakeCam=0x7f08001c;
         public static final int buttonUptext=0x7f080005;
-        public static final int buttonWiki=0x7f080024;
-        public static final int button_colorx=0x7f080020;
+        public static final int buttonWiki=0x7f080029;
+        public static final int button_colorx=0x7f080025;
+        public static final int camera_preview=0x7f080020;
         public static final int ddview1=0x7f080015;
         public static final int imageEn=0x7f080008;
         public static final int imageEn1=0x7f080013;
+        public static final int imageView1=0x7f08002b;
         public static final int linearLayout1=0x7f080009;
         public static final int listView1=0x7f080016;
+        public static final int litback=0x7f08002c;
+        public static final int littext=0x7f08002d;
         public static final int progressBar2=0x7f080010;
         public static final int radioGroup1=0x7f080012;
         public static final int spinner1=0x7f080007;
-        public static final int textView1=0x7f080014;
+        public static final int tCamL=0x7f080014;
+        public static final int textView2=0x7f08001f;
         public static final int textViewtt=0x7f080001;
         public static final int webView1=0x7f08000e;
     }
@@ -75,6 +84,8 @@ public final class R {
         public static final int activity_aweb=0x7f030006;
         public static final int activity_cam=0x7f030007;
         public static final int activity_main=0x7f030008;
+        public static final int activity_webforlist=0x7f030009;
+        public static final int listitemtemplate=0x7f03000a;
     }
     public static final class menu {
         public static final int a1=0x7f070000;
@@ -86,6 +97,7 @@ public final class R {
         public static final int aweb=0x7f070006;
         public static final int cam=0x7f070007;
         public static final int main=0x7f070008;
+        public static final int webforlist=0x7f070009;
     }
     public static final class string {
         public static final int IListerYou=0x7f050007;
@@ -93,6 +105,7 @@ public final class R {
         public static final int _tsD=0x7f05000d;
         public static final int _tsU=0x7f05000c;
         public static final int action_settings=0x7f050001;
+        public static final int addressulr=0x7f05001a;
         public static final int app_name=0x7f050000;
         public static final int c_blue=0x7f05000a;
         public static final int c_green=0x7f05000b;
@@ -110,6 +123,7 @@ public final class R {
         public static final int title_activity_alist=0x7f050016;
         public static final int title_activity_aweb=0x7f050015;
         public static final int title_activity_cam=0x7f050017;
+        public static final int title_activity_webforlist=0x7f050019;
         public static final int todo=0x7f05000e;
         public static final int web_tt=0x7f050012;
         public static final int wiki_tt=0x7f050014;

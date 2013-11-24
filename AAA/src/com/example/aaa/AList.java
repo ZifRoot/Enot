@@ -5,14 +5,16 @@ import java.util.Random;
 
 import android.os.Bundle;
 import android.app.Activity;
-import android.database.DataSetObserver;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-public class AList extends Activity {
+public class AList extends Activity implements OnItemClickListener {
 
 	ListView Lv;
 	@Override
@@ -22,11 +24,12 @@ public class AList extends Activity {
 		Lv = (ListView) findViewById(R.id.listView1);
 		ArrayList<Item> Ls = new ArrayList<Item>();
 		Random r = new Random();
-		Ls.add(new Item(r.nextInt()));
-		Ls.add(new Item(r.nextInt()));
-		Ls.add(new Item(r.nextInt()));
-		Ls.add(new Item(r.nextInt()));
-		Lv.setAdapter(new LA(Ls));
+		for (int i = 0; i < 100; i++) {
+			Ls.add(new Item(r.nextInt()));
+		}       
+		
+		Lv.setAdapter(new LA(Ls,R.layout.listitemtemplate));
+		Lv.setOnItemClickListener(this);
 	}
 
 	@Override
@@ -34,6 +37,16 @@ public class AList extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.alist, menu);
 		return true;
+	}
+
+	@Override
+	public void onItemClick(AdapterView<?> parent, View view, int position,
+			long id) {
+		// TODO Auto-generated method stub
+		Bundle bndl = new Bundle();
+		
+		bndl.putString(getResources().getString(R.string.addressulr) , ""+position);
+		startActivity( new Intent(this, Webforlist.class),bndl);	
 	}
 
 }

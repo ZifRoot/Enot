@@ -8,20 +8,63 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Cam" 
     android:orientation="vertical"
-    >
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
 
         <Button
             android:id="@+id/buttonCamX"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-          
-            android:text="1" />
+            android:text="Внешний запуск" />
 
         <Button
-            android:id="@+id/buttonCamSelf"
+            android:id="@+id/buttonCamDefault"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2" />
+            android:text="Default" />
+
+        <Button
+            android:id="@+id/buttonTakeCam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take" />
+
+        <Button
+            android:id="@+id/buttonRelease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Release" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/LayoutCams">"
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Камеры" />
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tCamL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/camera_preview"  >
+
+        </FrameLayout>
 
         <TextView
             android:id="@+id/TTT1"

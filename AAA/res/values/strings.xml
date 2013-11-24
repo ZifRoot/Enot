@@ -26,5 +26,7 @@
     <string name="title_activity_alist">AList</string>
     <string name="title_activity_cam">Cam</string>
     <string name="title_activity_adraw">ADraw</string>
+    <string name="title_activity_webforlist">Webforlist</string>
+    <string name="addressulr">addressULR</string>
 
 </resources>
