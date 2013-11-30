@@ -43,10 +43,15 @@ public class AList extends Activity implements OnItemClickListener {
 	public void onItemClick(AdapterView<?> parent, View view, int position,
 			long id) {
 		// TODO Auto-generated method stub
-		Bundle bndl = new Bundle();
 		
-		bndl.putString(getResources().getString(R.string.addressulr) , ""+position);
-		startActivity( new Intent(this, Webforlist.class),bndl);	
+		Intent i = new Intent(this, Webforlist.class);
+		i.putExtra(getResources().getString(R.string.addressulr), ""+position);
+		startActivity(i);
+		
+//		Bundle bndl = new Bundle();
+//		
+//		bndl.putString(getResources().getString(R.string.addressulr) , ""+position);
+//		startActivity( new Intent(this, Webforlist.class),bndl);	
 	}
 
 }

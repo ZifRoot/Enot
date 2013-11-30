@@ -42,8 +42,8 @@ public class LA extends BaseAdapter {
 			 arg1 = View.inflate(arg2.getContext(), v, null );//new Button(arg2.getContext());
 					 
 		}
-		 it.Vback = it.Vback==null?it.Vback: arg1.findViewById(R.id.litback);
-		 it.Vtext = it.Vtext==null?it.Vtext: (TextView) arg1.findViewById(R.id.littext);	
+		 it.Vback = it.Vback!=null?it.Vback: arg1.findViewById(R.id.litback);
+		 it.Vtext = it.Vtext!=null?it.Vtext: (TextView) arg1.findViewById(R.id.littext);	
 		 
 		it.Vtext.setText(""+arg0 + " | " + it.text);
 		it.Vtext.setTextSize(it.size);
